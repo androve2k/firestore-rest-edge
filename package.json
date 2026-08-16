@@ -1,0 +1,36 @@
+{
+  "name": "firestore-rest-edge",
+  "version": "0.1.0",
+  "description": "Minimal Firestore client over REST for V8 isolate runtimes (Cloudflare Workers, Vercel Edge, Deno Deploy) where firebase-admin's gRPC transport doesn't work.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "firestore",
+    "cloudflare-workers",
+    "edge",
+    "vercel-edge",
+    "deno-deploy",
+    "firebase",
+    "rest",
+    "zero-dependency"
+  ],
+  "author": "Andrea Roversi (https://roversia.it/index-en.html)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androve2k/firestore-rest-edge.git"
+  },
+  "homepage": "https://github.com/androve2k/firestore-rest-edge#readme",
+  "engines": {
+    "node": ">=19"
+  }
+}
